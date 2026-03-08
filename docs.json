@@ -42,28 +42,54 @@
     }
   ],
   "navigation": {
-    "introduction": "Inicio",
-    "changelog": "Changelog",
-    "survival/inicio": "Guía de Survival",
-    "survival/primeros-pasos": "Primeros pasos",
-    "survival/economia/monedas": "Monedas",
-    "survival/economia/tienda": "Tienda",
-    "survival/economia/shop": "Shop",
-    "survival/economia/kits": "Kits",
-    "survival/economia/boosters": "Boosters",
-    "survival/economia/armaduras": "Armaduras",
-    "survival/economia/rangos": "Rangos",
-    "survival/equipos/crear-equipo": "Crear equipo",
-    "survival/equipos/roles-y-permisos": "Roles y permisos",
-    "survival/equipos/niveles": "Niveles",
-    "survival/equipos/alianzas": "Alianzas",
-    "survival/equipos/alerta-de-emergencia": "Alerta de emergencia",
-    "survival/combate/arenas": "Arenas",
-    "survival/combate/sangrias": "Sangrías",
-    "survival/combate/koths": "KOTHs",
-    "survival/utilidades/reparacion": "Reparación",
-    "survival/utilidades/vuelo": "Vuelo",
-    "survival/utilidades/comandos-extras": "Comandos extras"
+    "groups": [
+      {
+        "name": "Inicio",
+        "pages": ["introduction", "changelog"]
+      },
+      {
+        "name": "Guía de Survival",
+        "pages": ["survival/inicio", "survival/primeros-pasos"]
+      },
+      {
+        "name": "Economía",
+        "pages": [
+          "survival/economia/monedas",
+          "survival/economia/tienda",
+          "survival/economia/shop",
+          "survival/economia/kits",
+          "survival/economia/boosters",
+          "survival/economia/armaduras",
+          "survival/economia/rangos"
+        ]
+      },
+      {
+        "name": "Equipos",
+        "pages": [
+          "survival/equipos/crear-equipo",
+          "survival/equipos/roles-y-permisos",
+          "survival/equipos/niveles",
+          "survival/equipos/alianzas",
+          "survival/equipos/alerta-de-emergencia"
+        ]
+      },
+      {
+        "name": "Combate",
+        "pages": [
+          "survival/combate/arenas",
+          "survival/combate/sangrias",
+          "survival/combate/koths"
+        ]
+      },
+      {
+        "name": "Utilidades",
+        "pages": [
+          "survival/utilidades/reparacion",
+          "survival/utilidades/vuelo",
+          "survival/utilidades/comandos-extras"
+        ]
+      }
+    ]
   },
   "footerSocials": {
     "discord": "https://discord.gg/drakense"
