@@ -1,0 +1,103 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "name": "Drakense docs",
+  "theme": "mint",
+  "logo": {
+    "dark": "/logo/dark.png",
+    "light": "/logo/light.png"
+  },
+  "favicon": "/favicon.ico",
+  "colors": {
+    "primary": "#DC2626",
+    "light": "#EF4444",
+    "dark": "#B91C1C"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Jugar",
+        "href": "https://drakense.top"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Conectarse",
+      "href": "https://drakense.top"
+    }
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Inicio",
+        "groups": [
+          {
+            "group": "Inicio",
+            "pages": ["introduction", "changelog"]
+          }
+        ]
+      },
+      {
+        "tab": "Survival",
+        "groups": [
+          {
+            "group": "Guía de Survival",
+            "pages": ["survival/inicio", "survival/primeros-pasos"]
+          },
+          {
+            "group": "Economía",
+            "pages": [
+              "survival/economia/monedas",
+              "survival/economia/tienda",
+              "survival/economia/shop",
+              "survival/economia/kits",
+              "survival/economia/boosters",
+              "survival/economia/armaduras",
+              "survival/economia/rangos"
+            ]
+          },
+          {
+            "group": "Equipos",
+            "pages": [
+              "survival/equipos/crear-equipo",
+              "survival/equipos/roles-y-permisos",
+              "survival/equipos/niveles",
+              "survival/equipos/alianzas",
+              "survival/equipos/alerta-de-emergencia"
+            ]
+          },
+          {
+            "group": "Combate",
+            "pages": [
+              "survival/combate/arenas",
+              "survival/combate/sangrias",
+              "survival/combate/koths"
+            ]
+          },
+          {
+            "group": "Utilidades",
+            "pages": [
+              "survival/utilidades/reparacion",
+              "survival/utilidades/vuelo",
+              "survival/utilidades/comandos-extras"
+            ]
+          }
+        ]
+      }
+    ],
+    "anchors": [
+      {
+        "name": "Discord",
+        "icon": "discord",
+        "url": "https://discord.gg/drakense"
+      },
+      {
+        "name": "IP del Servidor",
+        "icon": "server",
+        "url": "https://drakense.top"
+      }
+    ]
+  },
+  "footerSocials": {
+    "discord": "https://discord.gg/drakense"
+  }
+}
