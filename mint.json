@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Drakense",
+  "name": "Drakense docs",
   "logo": {
     "dark": "/logo/dark.png",
     "light": "/logo/light.png"
