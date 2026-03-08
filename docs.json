@@ -1,0 +1,112 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "palm",
+  "name": "Drakense docs",
+  "colors": {
+    "primary": "#DC2626",
+    "light": "#EF4444",
+    "dark": "#B91C1C"
+  },
+  "favicon": "/favicon.ico",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Inicio",
+            "pages": [
+              "introduction"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Survival",
+        "groups": [
+          {
+            "group": "Guía de Survival",
+            "pages": [
+              "survival/inicio",
+              "survival/primeros-pasos"
+            ]
+          },
+          {
+            "group": "Economía",
+            "pages": [
+              "survival/economia/monedas",
+              "survival/economia/tienda",
+              "survival/economia/shop",
+              "survival/economia/kits",
+              "survival/economia/boosters",
+              "survival/economia/armaduras",
+              "survival/economia/rangos"
+            ]
+          },
+          {
+            "group": "Equipos",
+            "pages": [
+              "survival/equipos/crear-equipo",
+              "survival/equipos/roles-y-permisos",
+              "survival/equipos/niveles",
+              "survival/equipos/alianzas",
+              "survival/equipos/alerta-de-emergencia"
+            ]
+          },
+          {
+            "group": "Combate",
+            "pages": [
+              "survival/combate/arenas",
+              "survival/combate/sangrias",
+              "survival/combate/koths"
+            ]
+          },
+          {
+            "group": "Utilidades",
+            "pages": [
+              "survival/utilidades/reparacion",
+              "survival/utilidades/vuelo",
+              "survival/utilidades/comandos-extras"
+            ]
+          }
+        ]
+      }
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Discord",
+          "href": "https://discord.gg/drakense",
+          "icon": "discord"
+        },
+        {
+          "anchor": "IP del Servidor",
+          "href": "https://drakense.top",
+          "icon": "server"
+        }
+      ]
+    }
+  },
+  "logo": {
+    "light": "/logo/light.png",
+    "dark": "/logo/dark.png"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Jugar",
+        "href": "https://drakense.top"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Conectarse",
+      "href": "https://drakense.top"
+    }
+  },
+  "footer": {
+    "socials": {
+      "discord": "https://discord.gg/drakense"
+    }
+  }
+}
