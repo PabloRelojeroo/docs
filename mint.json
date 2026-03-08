@@ -1,6 +1,7 @@
 {
   "$schema": "https://mintlify.com/schema.json",
   "name": "Drakense docs",
+  "theme": "mint",
   "logo": {
     "dark": "/logo/dark.png",
     "light": "/logo/light.png"
@@ -9,11 +10,7 @@
   "colors": {
     "primary": "#DC2626",
     "light": "#EF4444",
-    "dark": "#B91C1C",
-    "anchors": {
-      "from": "#DC2626",
-      "to": "#991B1B"
-    }
+    "dark": "#B91C1C"
   },
   "topbarLinks": [
     {
@@ -46,17 +43,11 @@
   "navigation": [
     {
       "group": "Inicio",
-      "pages": [
-        "introduction",
-        "changelog"
-      ]
+      "pages": ["introduction"]
     },
     {
       "group": "Guía de Survival",
-      "pages": [
-        "survival/inicio",
-        "survival/primeros-pasos"
-      ]
+      "pages": ["survival/inicio", "survival/primeros-pasos"]
     },
     {
       "group": "Economía",
