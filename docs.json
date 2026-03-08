@@ -7,7 +7,6 @@
     "light": "/logo/light.png"
   },
   "favicon": "/favicon.ico",
-  "theme": "mint",
   "colors": {
     "primary": "#DC2626",
     "light": "#EF4444",
@@ -41,56 +40,54 @@
       "url": "https://drakense.top"
     }
   ],
-  "navigation": {
-    "groups": [
-      {
-        "name": "Inicio",
-        "pages": ["introduction", "changelog"]
-      },
-      {
-        "name": "Guía de Survival",
-        "pages": ["survival/inicio", "survival/primeros-pasos"]
-      },
-      {
-        "name": "Economía",
-        "pages": [
-          "survival/economia/monedas",
-          "survival/economia/tienda",
-          "survival/economia/shop",
-          "survival/economia/kits",
-          "survival/economia/boosters",
-          "survival/economia/armaduras",
-          "survival/economia/rangos"
-        ]
-      },
-      {
-        "name": "Equipos",
-        "pages": [
-          "survival/equipos/crear-equipo",
-          "survival/equipos/roles-y-permisos",
-          "survival/equipos/niveles",
-          "survival/equipos/alianzas",
-          "survival/equipos/alerta-de-emergencia"
-        ]
-      },
-      {
-        "name": "Combate",
-        "pages": [
-          "survival/combate/arenas",
-          "survival/combate/sangrias",
-          "survival/combate/koths"
-        ]
-      },
-      {
-        "name": "Utilidades",
-        "pages": [
-          "survival/utilidades/reparacion",
-          "survival/utilidades/vuelo",
-          "survival/utilidades/comandos-extras"
-        ]
-      }
-    ]
-  },
+  "navigation": [
+    {
+      "group": "Inicio",
+      "pages": ["introduction", "changelog"]
+    },
+    {
+      "group": "Guía de Survival",
+      "pages": ["survival/inicio", "survival/primeros-pasos"]
+    },
+    {
+      "group": "Economía",
+      "pages": [
+        "survival/economia/monedas",
+        "survival/economia/tienda",
+        "survival/economia/shop",
+        "survival/economia/kits",
+        "survival/economia/boosters",
+        "survival/economia/armaduras",
+        "survival/economia/rangos"
+      ]
+    },
+    {
+      "group": "Equipos",
+      "pages": [
+        "survival/equipos/crear-equipo",
+        "survival/equipos/roles-y-permisos",
+        "survival/equipos/niveles",
+        "survival/equipos/alianzas",
+        "survival/equipos/alerta-de-emergencia"
+      ]
+    },
+    {
+      "group": "Combate",
+      "pages": [
+        "survival/combate/arenas",
+        "survival/combate/sangrias",
+        "survival/combate/koths"
+      ]
+    },
+    {
+      "group": "Utilidades",
+      "pages": [
+        "survival/utilidades/reparacion",
+        "survival/utilidades/vuelo",
+        "survival/utilidades/comandos-extras"
+      ]
+    }
+  ],
   "footerSocials": {
     "discord": "https://discord.gg/drakense"
   }
