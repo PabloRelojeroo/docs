@@ -1,122 +1,103 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mint Starter Kit",
-  "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Drakense docs",
+  "logo": {
+    "dark": "/logo/dark.png",
+    "light": "/logo/light.png"
   },
-  "favicon": "/favicon.svg",
-  "navigation": {
-    "tabs": [
-      {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Getting started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
+  "favicon": "/favicon.ico",
+  "colors": {
+    "primary": "#DC2626",
+    "light": "#EF4444",
+    "dark": "#B91C1C",
+    "anchors": {
+      "from": "#DC2626",
+      "to": "#991B1B"
+    }
+  },
+  "topbarLinks": [
+    {
+      "name": "Jugar",
+      "url": "https://drakense.top"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Conectarse",
+    "url": "https://drakense.top"
+  },
+  "tabs": [
+    {
+      "name": "Survival",
+      "url": "survival"
+    }
+  ],
+  "anchors": [
+    {
+      "name": "Discord",
+      "icon": "discord",
+      "url": "https://discord.gg/drakense"
+    },
+    {
+      "name": "IP del Servidor",
+      "icon": "server",
+      "url": "https://drakense.top"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Inicio",
+      "pages": [
+        "introduction",
+        "changelog"
+      ]
+    },
+    {
+      "group": "Guía de Survival",
+      "pages": [
+        "survival/inicio",
+        "survival/primeros-pasos"
+      ]
+    },
+    {
+      "group": "Economía",
+      "pages": [
+        "survival/economia/monedas",
+        "survival/economia/tienda",
+        "survival/economia/shop",
+        "survival/economia/kits",
+        "survival/economia/boosters",
+        "survival/economia/armaduras",
+        "survival/economia/rangos"
+      ]
+    },
+    {
+      "group": "Equipos",
+      "pages": [
+        "survival/equipos/crear-equipo",
+        "survival/equipos/roles-y-permisos",
+        "survival/equipos/niveles",
+        "survival/equipos/alianzas",
+        "survival/equipos/alerta-de-emergencia"
+      ]
+    },
+    {
+      "group": "Combate",
+      "pages": [
+        "survival/combate/arenas",
+        "survival/combate/sangrias",
+        "survival/combate/koths"
+      ]
+    },
+    {
+      "group": "Utilidades",
+      "pages": [
+        "survival/utilidades/reparacion",
+        "survival/utilidades/vuelo",
+        "survival/utilidades/comandos-extras"
       ]
     }
-  },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
-  },
-  "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
+  ],
+  "footerSocials": {
+    "discord": "https://discord.gg/drakense"
   }
 }
